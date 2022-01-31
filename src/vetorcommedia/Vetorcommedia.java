@@ -19,6 +19,8 @@ public class Vetorcommedia extends exerciocio.exerciocioSimples {
    
       exerciocioSimples teste = new exerciocioSimples();
       teste.array_cadastro();
+      teste.alunos_notas();
+        System.out.println("\n Resultados: \n");
       teste.array_media();
       teste.array_minimo();
       teste.array_maximo();

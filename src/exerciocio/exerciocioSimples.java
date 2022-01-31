@@ -52,7 +52,14 @@ public class exerciocioSimples {
         System.out.println("Tamanho do Array Notas: "+notas.length);
         System.out.println("\n");
         }
-    
+
+        public void alunos_notas(){
+            for(int matricula=0;matricula < notas.length;matricula++){
+                System.out.println("Matricula: "+(matricula+1)+" Nome: "+alunos[matricula]+" Nota: "+notas[matricula]);
+                System.out.println("-------------------------------------------------------------------------------");
+            }
+        }
+        
    //Classe para Calcular a Menor Nota
         public void array_minimo(){
         double valorminimo=2f;
@@ -104,6 +111,8 @@ public class exerciocioSimples {
             System.out.println("Matricula = "+(indicemaior+1));
             System.out.println("Maior Nota = "+valormaximo+"do Aluno "+alunos[indicemaior]);
     }
+
 }
+
 
 
